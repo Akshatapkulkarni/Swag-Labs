@@ -39,7 +39,7 @@ public class AddProductToCartTest extends BaseClass
 		
 		
 		//Step 4: Identify the Product
-		
+		Thread.sleep(1000);		
 		AllProductsPage app = new AllProductsPage(driver);
 		String ProductTitle = app.clickOnParticularProduct(driver, PRODUCTNAME);
 		System.out.println(ProductTitle);
